@@ -1,4 +1,5 @@
 ---
+id: 1
 name: Basketball hoop
 description: A ring and bacboard for fun times!
 price: 26000
