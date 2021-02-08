@@ -1,7 +1,7 @@
 ---
 id: 2
-name: Cooking classes
-description: A great way to learn delicious things and meet people
+name: Item number 2
+description: Troubleshoot problem with your hosting
 price: 20000
 ---
 

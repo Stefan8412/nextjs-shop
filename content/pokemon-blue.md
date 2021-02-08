@@ -1,7 +1,7 @@
 ---
 id: 3
-name: Pokemon blue
-description: The best Pokemon game that contains all 151 Pokemon
+name: Item number 3
+description: Taking care of your email
 price: 26000
 ---
 

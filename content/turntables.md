@@ -1,7 +1,7 @@
 ---
 id: 4
-name: Turntables
-description: A record player for dope
+name: Item number 4
+description: Updating your website
 price: 21000
 ---
 

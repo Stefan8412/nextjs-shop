@@ -1,7 +1,7 @@
 ---
 id: 1
-name: Basketball hoop
-description: A ring and bacboard for fun times!
+name: Item 1
+description: Troubleshoot problem on your website!
 price: 26000
 ---
 
