@@ -1,6 +1,6 @@
 ---
 id: 3
-name: Item number 3
+name: Item  3
 description: Taking care of your email
 price: 26000
 ---

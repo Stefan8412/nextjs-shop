@@ -1,6 +1,6 @@
 ---
 id: 2
-name: Item number 2
+name: Item  2
 description: Troubleshoot problem with your hosting
 price: 20000
 ---
