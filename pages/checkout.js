@@ -16,7 +16,7 @@ const Total = styled.p`
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 `;
 const Button = styled.button`
   background: linear-gradient(to right, #11998e, #38ef7d);
