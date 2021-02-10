@@ -9,6 +9,7 @@ const Container = styled.div`
   background: linear-gradient(to right, #11998e, #38ef7d);
   font-family: "Padauk", sans-serif;
   color: #444;
+  min-height: 100vh;
 `;
 
 const Page = styled.div`

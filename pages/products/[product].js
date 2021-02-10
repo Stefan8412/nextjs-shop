@@ -2,12 +2,8 @@ import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
 import styled from "styled-components";
+import Page from "../../components/styled/Page";
 
-const Container = styled.div`
-  background: white;
-  padding: 1rem 2rem;
-  margin: 1rem 0;
-`;
 const Title = styled.div`
   display: flex;
   align-items: flex-end;
@@ -30,14 +26,14 @@ const Price = styled.span`
 const Product = ({ product: { data, content } }) => {
   const html = marked(content);
   return (
-    <Container>
+    <Page>
       <Title>
         <h1>{data.name}</h1>
         <Subtitle>{data.description}</Subtitle>
       </Title>
       <Price>${data.price / 100}</Price>
       <div dangerouslySetInnerHTML={{ __html: html }} />
-    </Container>
+    </Page>
   );
 };
 
