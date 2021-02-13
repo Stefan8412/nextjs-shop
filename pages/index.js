@@ -41,7 +41,7 @@ const renderProduct = (product, addItemToCart) => {
         <Container>
           <h1>{product.name}</h1>
           <p>{product.description}</p>
-          <Price>${product.price / 100}</Price>
+          <Price>€{product.price / 100}</Price>
           <button onClick={handleClick}>Add to cart</button>
         </Container>
       </UnstyledLink>

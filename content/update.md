@@ -1,8 +1,8 @@
 ---
 id: 4
 name: Item  4
-description: Updating your website
-price: 21000
+description: 3D printed monogram keychain
+price: 1000
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non tellus fringilla augue pulvinar placerat nec in sem. Fusce elementum ornare purus nec fringilla. Vestibulum fringilla orci non elementum tempus. Mauris sollicitudin scelerisque quam, sed vulputate ex ullamcorper hendrerit. Maecenas ac consectetur ex. Integer id quam ex. In hac habitasse platea dictumst. Etiam in dignissim est. Phasellus ut augue at massa facilisis venenatis. Mauris sit amet dui augue. Quisque ac hendrerit erat. Donec ultricies porta risus, at commodo ipsum efficitur non. Cras cursus pellentesque magna, a vehicula arcu molestie vitae.

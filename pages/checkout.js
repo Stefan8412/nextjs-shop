@@ -21,7 +21,7 @@ const Total = styled.p`
   font-size: 1.25rem;
 `;
 const Button = styled.button`
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(to right, #ffb347, #ffcc33);
   font-size: 2rem;
   color: inherit;
   outline: none;
@@ -60,14 +60,14 @@ const Checkout = () => {
                     {item.qty}x {item.name}
                   </span>
 
-                  <span>${item.price / 100}</span>
+                  <span>€{item.price / 100}</span>
                 </Item>
               );
             })}
           </Ul>
           <Total>
             <span>Total</span>
-            <span>${total / 100}</span>
+            <span>€{total / 100}</span>
           </Total>
           <Button onClick={processPayment}>Process Payment</Button>
         </>

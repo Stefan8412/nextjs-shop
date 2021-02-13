@@ -14,7 +14,7 @@ const Subtitle = styled.p`
 `;
 const Price = styled.span`
   font-size: 2rem;
-  background: #799f0c;
+  background: linear-gradient(to right, #ffb347, #ffcc33);
   padding: 0.25rem 1rem;
   border-radius: 5px;
   color: white;
@@ -31,7 +31,7 @@ const Product = ({ product: { data, content } }) => {
         <h1>{data.name}</h1>
         <Subtitle>{data.description}</Subtitle>
       </Title>
-      <Price>${data.price / 100}</Price>
+      <Price>€{data.price / 100}</Price>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Page>
   );
