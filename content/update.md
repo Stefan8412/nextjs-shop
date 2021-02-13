@@ -1,7 +1,7 @@
 ---
 id: 4
-name: Item  4
-description: 3D printed monogram keychain
+name: Item 4
+description: 3D printed keychain
 price: 1000
 ---
 
