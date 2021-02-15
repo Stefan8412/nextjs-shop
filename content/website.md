@@ -1,7 +1,7 @@
 ---
 id: 1
-name: Keychain
-description: 3D printed v2
+name: Keychain v2
+description: 3D printed
 price: 1500
 ---
 
