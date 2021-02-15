@@ -47,8 +47,8 @@ const renderProduct = (product, addItemToCart) => {
           <Image
             alt="keychain logo"
             src="/daniel1.png"
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             layout="responsive"
           />
           <Price>€{product.price / 100}</Price>
