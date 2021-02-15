@@ -1,11 +1,11 @@
 ---
 id: 1
-name: Item 1
-description: 3D printed keychain
+name: Keychain
+description: 3D printed v2
 price: 1500
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non tellus fringilla augue pulvinar placerat nec in sem. Fusce elementum ornare purus nec fringilla. Vestibulum fringilla orci non elementum tempus. Mauris sollicitudin scelerisque quam, sed vulputate ex ullamcorper hendrerit. Maecenas ac consectetur ex. Integer id quam ex. In hac habitasse platea dictumst. Etiam in dignissim est. Phasellus ut augue at massa facilisis venenatis. Mauris sit amet dui augue. Quisque ac hendrerit erat. Donec ultricies porta risus, at commodo ipsum efficitur non. Cras cursus pellentesque magna, a vehicula arcu molestie vitae.
+3D Printing Name Keychain, manufactured from plastic by using a 3D printing technology. Firstly, the 3D Printing Name Keychain is available in many colors. Secondly, you can Enter Your name, also I can add your profession at the end e.g computer if you are programmer or camera if you are photographer...
 
 Vestibulum dictum dignissim enim dapibus sodales. Aenean et augue est. In fermentum sem sit amet consectetur facilisis. Integer vel bibendum sapien. Nulla mauris est, facilisis ac egestas at, malesuada nec massa. Proin at convallis ligula. Proin massa erat, varius eu consectetur vitae, laoreet id ipsum. Nam eget magna lacus. Nulla elit ipsum, tristique sit amet tempor non, mattis ut nunc. Suspendisse sit amet leo mauris. Pellentesque iaculis nibh vel nisl consectetur volutpat. Quisque porta mauris ut varius vulputate. Maecenas elit dolor, convallis in varius at, pretium ut nisl. In efficitur quam lectus, vel tempus tellus consequat eget.
 

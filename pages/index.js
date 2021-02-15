@@ -4,6 +4,8 @@ import Link from "next/link";
 import styled from "styled-components";
 import UnstyledLink from "../components/styled/unstyledlink.js";
 import useCart from "../hooks/useCart.js";
+import Image from "next/image";
+
 import { useContext } from "react";
 import { Context } from "../context/Cart";
 
@@ -29,6 +31,7 @@ const Price = styled.div`
   right: 1rem;
   font-size: 2.5rem;
 `;
+
 const renderProduct = (product, addItemToCart) => {
   const handleClick = (e) => {
     e.stopPropagation();
@@ -41,6 +44,13 @@ const renderProduct = (product, addItemToCart) => {
         <Container>
           <h1>{product.name}</h1>
           <p>{product.description}</p>
+          <Image
+            alt="keychain logo"
+            src="/daniel1.png"
+            width={150}
+            height={150}
+            layout="responsive"
+          />
           <Price>€{product.price / 100}</Price>
           <button onClick={handleClick}>Add to cart</button>
         </Container>
