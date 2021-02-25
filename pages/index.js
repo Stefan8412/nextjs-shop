@@ -4,7 +4,6 @@ import Link from "next/link";
 import styled from "styled-components";
 import UnstyledLink from "../components/styled/unstyledlink.js";
 import useCart from "../hooks/useCart.js";
-import Image from "next/image";
 
 import { useContext } from "react";
 import { Context } from "../context/Cart";
