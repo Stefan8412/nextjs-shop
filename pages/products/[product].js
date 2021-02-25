@@ -32,6 +32,7 @@ const Product = ({ product: { data, content } }) => {
         <Subtitle>{data.description}</Subtitle>
       </Title>
       <Price>€{data.price / 100}</Price>
+
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Page>
   );

@@ -44,13 +44,7 @@ const renderProduct = (product, addItemToCart) => {
         <Container>
           <h1>{product.name}</h1>
           <p>{product.description}</p>
-          <Image
-            alt="keychain logo"
-            src="/daniel1.png"
-            width={200}
-            height={200}
-            layout="responsive"
-          />
+
           <Price>€{product.price / 100}</Price>
           <button onClick={handleClick}>Add to cart</button>
         </Container>
@@ -60,8 +54,9 @@ const renderProduct = (product, addItemToCart) => {
 };
 
 const HomePage = (props) => {
+  console.log(props);
   const { cart, addItemToCart } = useCart();
-  console.log(cart);
+
   return (
     <ProductsContainer>
       {props.products.map((product) => renderProduct(product, addItemToCart))}
